@@ -96,6 +96,55 @@ html {
     border: none;
     background-color: var(--main-white);
     font-family: 'Roboto', sans-serif;
-    color: var(--main-purple);
+    color: var(--main-purple);   
+}
+
+/* Footer */ 
+.footer {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+}
+
+.footer-list-container {
+    position: absolute;
+    display: flex;
+    width: 180px;
+    left: calc(50% - 90px);
+    top: calc(50% - 15px);
+    justify-content: space-evenly;
+}
+
+.footer-list-item {
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+
+.footer-list-item a {
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+}
     
+
+.facebook {
+    background-image: url('https://icon-library.com/images/facebook-icon-png-white/facebook-icon-png-white-11.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url('https://icon-library.com/images/twitter-icon-png-white/twitter-icon-png-white-15.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-image: url('https://assets.website-files.com/5e7dd008bf10b905a6686537/5fdb094deba728a40894aed6_white-instagram-icon-png-10.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
