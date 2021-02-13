@@ -1,5 +1,6 @@
 :root {
     --main-purple: #674baf;
+    --main-white: white;
 }
 
 * {
@@ -11,6 +12,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    color: var(--main-white);
     background-color: var(--main-purple);
     background-image: url('/assets/bg-mobile.svg');
     background-repeat: no-repeat;
@@ -32,8 +34,8 @@ html {
 .header-logo {
     width: 90px;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 30px;
+    left: 30px;
 }
 
 /* main */
@@ -51,5 +53,49 @@ html {
 .main-div-container--image {
     width: 80vw;
     align-items: center;
+    
+}
+
+.main-section {
+    width: 75%;
+    padding-top: 40px;
+    margin: 0 auto;
+
+}
+
+.main-section .h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.main-section--parragraph {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    padding-top: 20px;
+}
+
+.main-section-button-container {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-white);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.main-section--button {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--main-white);
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-purple);
     
 }
