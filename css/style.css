@@ -14,7 +14,7 @@ html {
     font-family: 'Roboto', sans-serif;
     color: var(--main-white);
     background-color: var(--main-purple);
-    background-image: url('/assets/bg-mobile.svg');
+    background-image: url('https://raw.githubusercontent.com/platzi/landing-page-con-unica-seccion-de-introduccin/5a61ab69b21631955ded4680aa1122652ceca270/images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
