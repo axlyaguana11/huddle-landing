@@ -1,0 +1,36 @@
+html{
+    overflow-x: hidden;
+}
+
+.main {
+    flex-direction: row;
+}
+
+.main-div-container {
+    width: 50%;
+}
+
+.main-section {
+    width: 40%;
+}
+
+.main-section .h1 {
+    text-align: left;
+}
+
+.main-section--parragraph {
+    text-align: left;
+}
+
+.main-section-button-container {
+    margin-left: 0;
+}
+
+.footer {
+    height: 20vh;
+}
+
+.footer-list-container {
+    top: calc(80% - 15px);
+    left: calc(90% - 90px);
+}

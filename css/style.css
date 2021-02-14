@@ -41,6 +41,9 @@ html {
 /* main */
 .main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .main-div-container {
@@ -51,7 +54,7 @@ html {
 }
 
 .main-div-container--image {
-    width: 80vw;
+    width: 80%;
     align-items: center;
     
 }
